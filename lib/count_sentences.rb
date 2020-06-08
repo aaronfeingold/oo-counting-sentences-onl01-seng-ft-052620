@@ -18,4 +18,5 @@ class String
     sentences = self.gsub(".", "142").gsub("?", "142").gsub("!", "142").split("142").reject { |sentance| sentance == ""}
     sentences.count 
   end
+  
 end
